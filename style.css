@@ -16,6 +16,7 @@ body
 
 #welcome-to-fusion {
     font-family: 'Roboto', sans-serif;
+    padding: 4rem 0;
 }
 
 .welcome-text-div {
@@ -57,6 +58,7 @@ body
 
 .circle-container {
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 .circle {
