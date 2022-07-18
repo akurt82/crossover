@@ -16,5 +16,358 @@ body
 /* Bashar */
 
 /* Abduelaziz */
+/*:root {
+  --color: rgb(240, 63, 234);
+  --background: rgb(245, 247, 229);
+}
+x-> var(--color)*/
 
-/* Christoph */
+.in0, .in1, .in2, .in3, .in4, .in5, .in6
+{
+    font-family: Montserrat;
+}
+
+.in0, .in4
+{
+    text-align: center;
+}
+
+.in0 h3, .in4 h3
+{
+    font-weight: bold;
+}
+
+.in0 h4, .in4 h4
+{
+    font-weight: normal;
+}
+
+.in1
+{
+    display: flex;
+}
+
+.in2
+{
+    margin: 0;
+    padding: 0;
+    width: 25%;
+}
+
+.in2:nth-child(1)
+{
+    width: 50%;
+}
+
+.in2:nth-child(2)
+{
+    margin: 0 30px;
+}
+
+.in3
+{
+    text-align: center;
+    padding: 30px 0;
+}
+
+.in3 button
+{
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 50px;
+    color: #fff;
+    background-color: rgb(251,173,39);
+    cursor: pointer;
+}
+
+.in3 hr
+{
+    border: none;
+    border-top: 1px solid rgb(180,180,180);
+}
+
+.in5
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 0px;
+}
+
+.in5 .left
+{
+    vertical-align: top;
+}
+
+.in5 .center
+{
+    vertical-align: center;
+    width: 100%;
+    margin: 0px 40px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    border-radius: 6px;
+    padding: 20px;
+    display: flex;
+}
+
+.in5 .center .h:nth-child(1)
+{
+    width: 40%;
+    margin-right: 20px;
+    border-radius: 6px;
+}
+
+.in5 .center .h:nth-child(2)
+{
+    width: 60%;
+}
+
+.in5 .center .h img
+{
+    border-radius: 6px;
+}
+
+.in5 .center .h .v
+{
+    font-size: 0.75em;
+}
+
+.in5 .center .h .v .t
+{
+    vertical-align: top;
+}
+
+.in5 .center .h .v .b
+{
+    vertical-align: bottom;
+}
+
+.in5 .center .h .v .b h3
+{
+    color: rgb(251,173,39);
+    padding-top: 10px;
+}
+
+.in5 .right
+{
+    vertical-align: bottom;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.in6
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.field_0x1, .field_1x1, 
+.field_0x2, .field_1x2, 
+.field_0x3, .field_1x3 
+{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.05);
+}
+
+.field_0x1
+{
+    height: 280px;
+    vertical-align: top;
+    overflow: hidden;
+    margin-bottom: 30px;
+    background: url('imgs/boat_sea_horizon_320620_1280x720.jpg') center center;
+    cursor: pointer;
+}
+
+.field_1x1
+{
+    vertical-align: top;
+    text-align: left;
+    display: flex;
+}
+
+.field_1x1 .field_1x1_a, .field_1x1 .field_1x1_b
+{
+    width: 50%;
+    padding: 10px;
+    height: 120px;
+}
+
+.field_1x1 .field_1x1_b
+{
+    background-color: rgb(230,230,230);
+    background: url('imgs/sea_splashes_foam_320551_1280x720.jpg') center center;
+}
+
+.field_0x2
+{
+    vertical-align: top;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.field_0x2 .field_0x2_a
+{
+    background-color: rgb(230,230,230);
+    background: url('imgs/coast_sand_sea_320617_1280x720.jpg') left center;
+}
+
+.field_0x2 .field_0x2_a, .field_0x2 .field_0x2_b
+{
+    padding: 10px;
+    height: 120px;
+}
+
+.field_1x2
+{
+    height: 120px;
+    vertical-align: top;
+    text-align: left;
+    padding: 10px;
+    background-color: rgb(230,230,230);
+    background: url('imgs/kitten_tree_branch_320580_1280x720.jpg') center center;
+}
+
+.field_0x3
+{
+    height: 120px;
+    vertical-align: top;
+    margin-bottom: 30px;
+    text-align: left;
+    padding: 10px;
+    background-color: rgb(230,230,230);
+    background: url('imgs/hills_mountains_forest_320601_1280x720.jpg') center center;
+}
+
+.field_1x3
+{
+    vertical-align: top;
+    text-align: left;
+}
+
+.field_1x3 .field_1x3_a, .field_1x3 .field_1x3_b
+{
+    padding: 10px;
+    height: 120px;
+}
+
+.field_1x3 .field_1x3_a
+{
+    background-color: rgb(230,230,230);
+    background: url('imgs/kitten_tree_branch_320580_1280x720.jpg') top center;
+}
+
+.field_1x1 .field_1x1_a, .field_0x2 .field_0x2_b, .field_1x3 .field_1x3_b
+{
+    font-size: 0.64em;
+}
+
+.gray-inner
+{
+    width: 6px;
+    height: 6px;
+    background-color: rgb(200,200,200);
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.gray-outer
+{
+    border-radius: 50%;
+    border: 1px solid rgb(200,200,200);
+    margin: 5px;
+}
+
+.nice-inner
+{
+    width: 6px;
+    height: 6px;
+    background-color: rgb(251,173,39);
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.nice-outer
+{
+    border-radius: 50%;
+    border: 1px solid rgb(251,173,39);
+    margin: 5px;
+}
+
+/* Christoph/Abduelaziz */
+
+.footer
+{
+    font-family: Montserrat;
+}
+
+.band 
+{
+    font-family: Montserrat;
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 105px;
+    margin-top: -105px;
+    background-color: rgb(251,173,39);
+    padding: 30px 0px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.band .left
+{
+    font-size: 1.2em;
+    padding: 30px;
+    padding-top: 36px;
+}
+
+.band .right
+{
+    font-size: 1.2em;
+    padding: 30px;
+    padding-left: 0px;
+}
+
+.band .right button
+{
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 50px;
+    color: #fff;
+    background-color: rgb(251,173,39);
+    border: 3px solid #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+footer .inner
+{
+    padding: 40px;
+    padding-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 24px;
+    font-size: 0.8em;
+    font-family: Montserrat;
+}
+
+footer .inner a
+{
+    text-decoration: none;
+    color: black;
+}
+
+footer .bottom
+{
+    line-height: 24px;
+    font-size: 0.7em;
+    font-family: Montserrat;
+    text-align: center;
+    padding: 30px;
+    margin: 0px 40px;
+    border-top: 1px solid rgb(180,180,180);
+}
