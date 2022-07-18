@@ -12,9 +12,19 @@ body
 /* Irina */
 
 /* Anoj */
+@import url('https://fonts.googleapis.com/css2?family=Arapey&family=Roboto&display=swap');
+
+#welcome-to-fusion {
+    font-family: 'Roboto', sans-serif;
+}
+
 .welcome-text-div {
     text-align: center;
-    padding: 2rem 0;
+    padding: 1.5rem 0;
+}
+
+#fusion-title {
+    font-size: 3rem;
 }
 
 .card-content {
@@ -41,6 +51,10 @@ body
     padding: 2rem 0;
 }
 
+.card-container h4 {
+    font-weight: 700;
+}
+
 .circle-container {
     text-align: center;
 }
@@ -53,10 +67,6 @@ body
 }
 
 .circle:hover {
-    background-color: rgba(115, 115, 115, 0.2);
-}
-
-.circle:active {
     background-color:rgba(251, 173, 39, 1);
 }
 
