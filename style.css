@@ -12,6 +12,74 @@ body
 /* Irina */
 
 /* Anoj */
+@import url('https://fonts.googleapis.com/css2?family=Arapey&family=Roboto&display=swap');
+
+#welcome-to-fusion {
+    font-family: 'Roboto', sans-serif;
+}
+
+.welcome-text-div {
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+#fusion-title {
+    font-size: 3rem;
+}
+
+.card-content {
+   padding: 3rem;
+}
+
+.card-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 312px;
+    height: 312px;
+}
+
+.card-item:hover{
+    transition: 0.5s;
+    box-shadow: 0 0 15px rgba(33,33,33,.2);
+    cursor: pointer;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.card-container h4 {
+    font-weight: 700;
+}
+
+.circle-container {
+    text-align: center;
+}
+
+.circle {
+    transition: 0.5s;
+    margin: 0.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.circle:hover {
+    background-color:rgba(251, 173, 39, 1);
+}
+
+@media only screen and (max-width: 700px) {
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-item{
+        width: 90%;
+    }
+  }
 
 /* Bashar */
 
