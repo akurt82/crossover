@@ -1,16 +1,93 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
 html{
     margin:0;
     padding: 0;
+
 }
 
 body
 {
-    max-width: 1000px;
+   
     margin: 0 auto;
 }
 
 /* Irina */
+header a:last-child{
+flex: 2;
+}
 
+header a{
+    
+    color: white;
+}
+
+
+
+
+div.top{
+    position: relative;
+    min-width:100vw;
+    background: no-repeat url(banner.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.banner{
+    min-width: 70%;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-6rem);
+}
+.banner .container{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    min-width:100%;
+    text-align: center;
+}
+.banner h2{
+   
+    font-size: 2.8em;
+    color:white;
+}
+
+.banner p{
+   
+    font-size:1.2em;
+    line-height:1.5em;
+    color: #fff;
+
+}
+
+.btn{
+    background: orange;
+    color: #fff;
+    border: none;
+    font-weight: 700;
+    padding: 10px 20px;
+}
+
+.navbar-brand{
+    padding: 20px 0;
+    color: #fff;
+}
+.play-icon{
+    position: absolute;
+    bottom:1rem;
+    left: 1rem;
+    color: #fff;
+    font-size: 25px;
+}
 /* Anoj */
 
 /* Bashar */
